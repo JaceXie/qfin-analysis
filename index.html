@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QFIN 奇富科技 深度分析 — 巴菲特神谕分析师</title>
+<meta name="description" content="融合巴菲特投资哲学与现代多维分析框架的奇富科技（QFIN）深度分析报告">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F2EDE8;--bg-alt:#EBE4DD;--surface:#FFFFFF;--surface-hover:#F9F6F3;--border:#D8CFCA;--border-accent:#C4A882;--text:#4A433E;--text-secondary:#7A726B;--text-dim:#A09890;--heading:#3A3330;--morandi-rose:#C9A9A0;--morandi-sage:#A3B0A0;--morandi-sand:#C4A882;--morandi-blue:#9EB0BC;--morandi-mauve:#B0A0B0;--morandi-clay:#BEA898;--accent:#8B7355;--accent-light:rgba(139,115,85,.08);--accent-border:rgba(139,115,85,.2);--green:#7A9E7E;--green-bg:rgba(122,158,126,.1);--red:#BF7B6E;--red-bg:rgba(191,123,110,.1);--yellow:#C4A060;--yellow-bg:rgba(196,160,96,.1);--blue:#7E9BB0;--blue-bg:rgba(126,155,176,.1);--table-header-bg:#EDE7E1;--table-stripe:rgba(0,0,0,.02);--table-hover:rgba(139,115,85,.06);--shadow-sm:0 1px 3px rgba(74,67,62,.06);--shadow-md:0 4px 12px rgba(74,67,62,.08);--shadow-lg:0 8px 32px rgba(74,67,62,.1);--badge-buy-bg:rgba(122,158,126,.15);--badge-buy-text:#5A7E5E;--badge-sell-bg:rgba(191,123,110,.15);--badge-sell-text:#9E5A4E;--badge-hold-bg:rgba(196,160,96,.15);--badge-hold-text:#8E7030;--radius:12px;--radius-sm:8px;--radius-lg:16px;--content-width:900px;--sidebar-width:260px}
+[data-theme="dark"]{--bg:#262320;--bg-alt:#2E2A27;--surface:#33302D;--surface-hover:#3B3734;--border:#4A4540;--border-accent:#8B7355;--text:#E0D8D0;--text-secondary:#B0A89E;--text-dim:#807870;--heading:#F0E8E0;--accent:#C4A882;--accent-light:rgba(196,168,130,.1);--accent-border:rgba(196,168,130,.25);--morandi-rose:#C9A9A0;--morandi-sage:#8EA088;--morandi-sand:#C4A882;--morandi-blue:#8AA0B0;--morandi-mauve:#A090A0;--green:#8EB892;--green-bg:rgba(142,184,146,.12);--red:#D08878;--red-bg:rgba(208,136,120,.12);--yellow:#D4B070;--yellow-bg:rgba(212,176,112,.12);--blue:#8EAEC0;--blue-bg:rgba(142,174,192,.12);--table-header-bg:#3B3734;--table-stripe:rgba(255,255,255,.02);--table-hover:rgba(196,168,130,.08);--shadow-sm:0 1px 3px rgba(0,0,0,.2);--shadow-md:0 4px 12px rgba(0,0,0,.25);--shadow-lg:0 8px 32px rgba(0,0,0,.3);--badge-buy-bg:rgba(142,184,146,.18);--badge-buy-text:#8EB892;--badge-sell-bg:rgba(208,136,120,.18);--badge-sell-text:#D08878;--badge-hold-bg:rgba(212,176,112,.18);--badge-hold-text:#D4B070}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{font-size:16px;scroll-behavior:smooth;scroll-padding-top:80px}body{font-family:'Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--bg);color:var(--text);line-height:1.7;-webkit-font-smoothing:antialiased;transition:background .4s,color .3s}
+.topbar{position:fixed;top:0;left:0;right:0;z-index:1000;background:var(--surface);border-bottom:1px solid var(--border);box-shadow:var(--shadow-sm);backdrop-filter:blur(12px);transition:background .4s,border-color .3s}[data-theme="light"] .topbar{background:rgba(255,255,255,.9)}[data-theme="dark"] .topbar{background:rgba(51,48,45,.9)}.topbar-inner{max-width:1200px;margin:0 auto;padding:0 2rem;height:56px;display:flex;align-items:center;justify-content:space-between}.topbar-brand{display:flex;align-items:center;gap:10px;font-family:'Noto Serif SC',serif;font-size:1rem;font-weight:600;color:var(--heading);text-decoration:none}.topbar-brand .logo{width:32px;height:32px;border-radius:8px;background:linear-gradient(135deg,var(--morandi-sand),var(--morandi-rose));display:flex;align-items:center;justify-content:center;font-size:.9rem;color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.2)}.topbar-actions{display:flex;align-items:center;gap:8px}.topbar-meta{font-size:.75rem;color:var(--text-dim);margin-right:12px}.theme-toggle{width:40px;height:40px;border-radius:10px;border:1px solid var(--border);background:var(--surface);color:var(--text-secondary);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:1.1rem;transition:all .25s}.theme-toggle:hover{background:var(--surface-hover);border-color:var(--accent);color:var(--accent)}
+.layout{max-width:1200px;margin:0 auto;padding:72px 2rem 4rem;display:flex;gap:2.5rem}.sidebar{width:var(--sidebar-width);flex-shrink:0;position:sticky;top:72px;height:calc(100vh - 88px);overflow-y:auto;padding:1rem 0}.sidebar::-webkit-scrollbar{width:3px}.sidebar::-webkit-scrollbar-thumb{background:var(--border);border-radius:4px}.sidebar-nav{list-style:none}.sidebar-nav li{margin-bottom:2px}.sidebar-nav a{display:block;padding:6px 12px;font-size:.8rem;color:var(--text-secondary);text-decoration:none;border-radius:var(--radius-sm);border-left:2px solid transparent;transition:all .2s;line-height:1.5}.sidebar-nav a:hover{color:var(--accent);background:var(--accent-light)}.sidebar-nav a.active{color:var(--accent);border-left-color:var(--accent);background:var(--accent-light);font-weight:500}.sidebar-nav .nav-group{font-size:.68rem;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--text-dim);padding:16px 12px 6px}.content{flex:1;min-width:0;max-width:var(--content-width)}
+.hero{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:2.5rem;margin-bottom:2rem;box-shadow:var(--shadow-md);position:relative;overflow:hidden}.hero::before{content:'';position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--morandi-sand),var(--morandi-rose),var(--morandi-sage),var(--morandi-blue))}.hero-badge{display:inline-flex;align-items:center;gap:6px;font-size:.72rem;font-weight:500;text-transform:uppercase;letter-spacing:.1em;color:var(--accent);background:var(--accent-light);border:1px solid var(--accent-border);border-radius:999px;padding:4px 14px;margin-bottom:1.25rem}.hero h1{font-family:'Noto Serif SC',serif;font-size:clamp(1.6rem,3.5vw,2.2rem);font-weight:700;color:var(--heading);line-height:1.3;margin-bottom:.5rem}.hero-subtitle{font-size:1rem;color:var(--text-secondary);margin-bottom:1.5rem}.hero-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:1rem;padding-top:1.5rem;border-top:1px solid var(--border)}.hero-stat{text-align:center}.hero-stat .label{font-size:.7rem;color:var(--text-dim);text-transform:uppercase;letter-spacing:.06em;margin-bottom:4px}.hero-stat .value{font-family:'JetBrains Mono',monospace;font-size:1.15rem;font-weight:600;color:var(--heading)}.hero-stat .change{font-size:.72rem;margin-top:2px}.change.up{color:var(--green)}.change.down{color:var(--red)}
+.verdict{background:linear-gradient(135deg,var(--surface),var(--bg-alt));border:1px solid var(--border-accent);border-radius:var(--radius-lg);padding:2rem;margin-bottom:2rem;box-shadow:var(--shadow-md);position:relative}.verdict::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--morandi-sand);border-radius:var(--radius-lg) var(--radius-lg) 0 0}.verdict-title{font-family:'Noto Serif SC',serif;font-size:1.15rem;font-weight:600;color:var(--accent);margin-bottom:1rem;display:flex;align-items:center;gap:8px}.verdict p{font-size:.92rem;line-height:1.8;color:var(--text)}.verdict strong{color:var(--heading)}
+.decision-summary{background:var(--surface);border:2px solid var(--morandi-sage);border-radius:var(--radius-lg);padding:1.5rem 2rem;margin-bottom:2rem;box-shadow:var(--shadow-md);display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:1.25rem;align-items:center}.ds-item{text-align:center}.ds-item .ds-label{font-size:.68rem;color:var(--text-dim);text-transform:uppercase;letter-spacing:.06em;margin-bottom:4px}.ds-item .ds-value{font-family:'JetBrains Mono',monospace;font-size:1.1rem;font-weight:700;color:var(--heading)}.ds-item .ds-note{font-size:.7rem;color:var(--text-secondary);margin-top:2px}.ds-item .ds-value.rating-buy{color:var(--green)}.ds-item .ds-value.rating-hold{color:var(--yellow)}.ds-item .ds-value.rating-sell{color:var(--red)}
+.module{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:2rem;margin-bottom:1.5rem;box-shadow:var(--shadow-sm);transition:box-shadow .3s}.module:hover{box-shadow:var(--shadow-md)}.module-header{display:flex;align-items:center;gap:10px;margin-bottom:1.5rem;padding-bottom:1rem;border-bottom:1px solid var(--border)}.module-num{width:32px;height:32px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:.75rem;font-weight:700;flex-shrink:0;font-family:'JetBrains Mono',monospace}.module-num.n1{background:rgba(201,169,160,.2);color:var(--morandi-rose)}.module-num.n2{background:rgba(163,176,160,.2);color:var(--morandi-sage)}.module-num.n3{background:rgba(196,168,130,.2);color:var(--morandi-sand)}.module-num.n4{background:rgba(158,176,188,.2);color:var(--morandi-blue)}.module-num.n5{background:rgba(176,160,176,.2);color:var(--morandi-mauve)}.module-num.n6{background:rgba(190,168,152,.2);color:var(--morandi-clay)}.module-num.n7{background:rgba(201,169,160,.2);color:var(--morandi-rose)}.module-num.n8{background:rgba(163,176,160,.2);color:var(--morandi-sage)}.module-num.n9{background:rgba(196,168,130,.2);color:var(--morandi-sand)}.module-num.n10{background:rgba(158,176,188,.2);color:var(--morandi-blue)}.module-num.n11{background:rgba(191,123,110,.15);color:var(--red)}.module-num.n12{background:rgba(196,168,130,.2);color:var(--morandi-sand)}
+.module h2{font-family:'Noto Serif SC',serif;font-size:1.2rem;font-weight:600;color:var(--heading)}.module h3{font-family:'Noto Serif SC',serif;font-size:1rem;font-weight:600;color:var(--heading);margin:1.5rem 0 .75rem}.module h3:first-of-type{margin-top:0}.module p,.module li{font-size:.88rem;line-height:1.8;color:var(--text)}.module ul,.module ol{padding-left:1.5rem;margin:.5rem 0}.module li{margin-bottom:.3rem}.module strong{color:var(--heading);font-weight:600}
+.table-wrapper{overflow-x:auto;margin:1rem 0;border-radius:var(--radius-sm);border:1px solid var(--border)}table{width:100%;border-collapse:collapse;font-size:.82rem;line-height:1.5}thead{background:var(--table-header-bg)}th{padding:10px 14px;font-weight:600;color:var(--heading);text-align:left;white-space:nowrap;border-bottom:2px solid var(--border);font-size:.78rem}td{padding:9px 14px;border-bottom:1px solid var(--border);color:var(--text);vertical-align:top}tr:nth-child(even){background:var(--table-stripe)}tr:hover{background:var(--table-hover)}td:first-child{font-weight:500;color:var(--heading)}.num{font-family:'JetBrains Mono',monospace;font-size:.8rem;text-align:right}th.num{text-align:right}
+.callout{padding:1rem 1.25rem;border-radius:var(--radius-sm);margin:1rem 0;font-size:.85rem;line-height:1.7;border-left:3px solid}.callout.info{background:var(--blue-bg);border-color:var(--blue)}.callout.success{background:var(--green-bg);border-color:var(--green)}.callout.warning{background:var(--yellow-bg);border-color:var(--yellow)}.callout.danger{background:var(--red-bg);border-color:var(--red)}.callout-title{font-weight:600;color:var(--heading);margin-bottom:4px}
+.badge{display:inline-flex;align-items:center;padding:3px 10px;border-radius:999px;font-size:.72rem;font-weight:600}.badge.buy{background:var(--badge-buy-bg);color:var(--badge-buy-text)}.badge.sell{background:var(--badge-sell-bg);color:var(--badge-sell-text)}.badge.hold{background:var(--badge-hold-bg);color:var(--badge-hold-text)}
+.code-block{background:var(--bg-alt);border:1px solid var(--border);border-radius:var(--radius-sm);padding:1rem 1.25rem;font-family:'JetBrains Mono',monospace;font-size:.8rem;line-height:1.7;overflow-x:auto;margin:1rem 0;color:var(--text)}
+.highlight-box{background:var(--accent-light);border:1px solid var(--accent-border);border-radius:var(--radius);padding:1.25rem;margin:1rem 0}.highlight-box .hl-label{font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);font-weight:600;margin-bottom:.5rem}
+.moat-item{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid var(--border)}.moat-item:last-child{border-bottom:none}.moat-label{flex:1;font-size:.85rem;font-weight:500;color:var(--heading)}.moat-rating{font-size:.72rem;font-weight:600;padding:2px 10px;border-radius:999px}.moat-rating.wide{background:var(--green-bg);color:var(--green)}.moat-rating.narrow{background:var(--yellow-bg);color:var(--yellow)}.moat-rating.none{background:var(--red-bg);color:var(--red)}
+.scorecard-grid{display:grid;grid-template-columns:1fr;gap:6px;margin:1rem 0}.score-row{display:flex;align-items:center;padding:8px 12px;border-radius:var(--radius-sm);background:var(--bg-alt);gap:12px}.score-row .criteria{flex:1;font-size:.82rem;color:var(--text)}.score-row .score{font-family:'JetBrains Mono',monospace;font-size:.82rem;font-weight:600;color:var(--accent);min-width:42px;text-align:center}.score-row .dots{display:flex;gap:4px}.score-row .dot{width:10px;height:10px;border-radius:50%;background:var(--border)}.score-row .dot.filled{background:var(--morandi-sand)}
+.grade-badge{display:inline-flex;align-items:center;justify-content:center;width:56px;height:56px;border-radius:50%;font-family:'Noto Serif SC',serif;font-size:1.5rem;font-weight:700}.grade-badge.b{background:var(--blue-bg);color:var(--blue);border:2px solid var(--blue)}.grade-badge.c{background:var(--yellow-bg);color:var(--yellow);border:2px solid var(--yellow)}
+.decision-box{background:var(--surface);border:2px solid var(--yellow);border-radius:var(--radius-lg);padding:2rem;margin:1.5rem 0}.decision-header{display:flex;align-items:center;gap:16px;margin-bottom:1.5rem}.decision-rating{font-family:'Noto Serif SC',serif;font-size:1.2rem;font-weight:700;padding:8px 20px;border-radius:var(--radius)}.decision-price{font-family:'JetBrains Mono',monospace}.decision-price .current{font-size:1.8rem;font-weight:700;color:var(--heading)}.decision-price .target{font-size:.82rem;color:var(--text-secondary)}
+.disclaimer{background:var(--bg-alt);border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem;margin-top:2rem;font-size:.78rem;color:var(--text-dim);line-height:1.7}.disclaimer strong{color:var(--text-secondary)}
+.page-footer{text-align:center;padding:2rem 0;margin-top:2rem;border-top:1px solid var(--border);font-size:.75rem;color:var(--text-dim)}.page-footer a{color:var(--accent);text-decoration:none}.page-footer a:hover{text-decoration:underline}
+.back-to-top{position:fixed;bottom:2rem;right:2rem;width:42px;height:42px;border-radius:50%;background:var(--surface);border:1px solid var(--border);box-shadow:var(--shadow-md);color:var(--text-secondary);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:1.1rem;opacity:0;transform:translateY(10px);transition:all .3s;z-index:100}.back-to-top.visible{opacity:1;transform:translateY(0)}.back-to-top:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
+@media(max-width:960px){.sidebar{display:none}.layout{padding:72px 1.25rem 3rem}.hero,.module{padding:1.5rem}}@media(max-width:600px){.layout{padding:64px 1rem 2rem}.hero{padding:1.25rem}.hero-stats{grid-template-columns:repeat(2,1fr)}.module{padding:1.25rem}.topbar-meta{display:none}th,td{padding:7px 10px;font-size:.75rem}.decision-summary{grid-template-columns:repeat(2,1fr)}}@media print{.topbar,.sidebar,.theme-toggle,.back-to-top{display:none!important}.layout{padding:0}.module{break-inside:avoid;box-shadow:none;border:1px solid #ddd}}
+</style>
+</head>
+<body>
+<nav class="topbar"><div class="topbar-inner"><a href="#" class="topbar-brand"><div class="logo">B</div><span>巴菲特神谕分析师</span></a><div class="topbar-actions"><span class="topbar-meta">2026-04-09 | NASDAQ: QFIN</span><button class="theme-toggle" id="themeToggle" title="切换主题"><span id="themeIcon">&#9790;</span></button></div></div></nav>
+<div class="layout">
+<aside class="sidebar"><ul class="sidebar-nav" id="sidebarNav">
+  <li class="nav-group">概览</li><li><a href="#verdict">巴菲特裁决</a></li><li><a href="#summary">决策摘要</a></li><li><a href="#overview">公司概览</a></li>
+  <li class="nav-group">基本面</li><li><a href="#management">管理层评估</a></li><li><a href="#business">商业模式</a></li><li><a href="#moat">经济护城河</a></li><li><a href="#financials">财务分析</a></li><li><a href="#earningscall">电话会分析</a></li>
+  <li class="nav-group">估值与市场</li><li><a href="#valuation">多模型估值</a></li><li><a href="#competition">竞争分析</a></li><li><a href="#technical">技术面</a></li>
+  <li class="nav-group">风险与决策</li><li><a href="#catalysts">增长催化剂</a></li><li><a href="#risk">风险矩阵</a></li><li><a href="#scorecard">巴菲特计分卡</a></li>
+</ul></aside>
+<main class="content">
+
+<section class="hero" id="hero">
+  <div class="hero-badge">深度分析报告</div>
+  <h1>QFIN 奇富科技</h1>
+  <p class="hero-subtitle">融合巴菲特投资哲学与现代多维分析框架的机构级深度研究</p>
+  <div class="hero-stats">
+    <div class="hero-stat"><div class="label">股价</div><div class="value">$13.51</div><div class="change down">52周: $12.29 - $47.00</div></div>
+    <div class="hero-stat"><div class="label">市值</div><div class="value">$16.5亿</div><div class="change down">-74% 自峰值</div></div>
+    <div class="hero-stat"><div class="label">PE (TTM)</div><div class="value">2.15x</div><div class="change up">极度低估</div></div>
+    <div class="hero-stat"><div class="label">ROE</div><div class="value">29.1%</div><div class="change up">远超行业</div></div>
+    <div class="hero-stat"><div class="label">股息率</div><div class="value">11.6%</div><div class="change up">$1.56/ADS</div></div>
+    <div class="hero-stat"><div class="label">评级</div><div class="value" style="color:var(--yellow)">持有/投机买入</div></div>
+  </div>
+</section>
+
+<section class="verdict" id="verdict">
+  <div class="verdict-title">巴菲特的裁决</div>
+  <p><strong>奇富科技是一把锋利的双刃剑——2倍PE、12%股息率、29%ROE的数字尖叫着"便宜"，但监管铡刀正悬在头上。</strong> 这家公司2025年赚了RMB 60亿净利润、回馈了$12.8亿给股东（占当前市值78%），财务指标堪称教科书级优秀。然而，2026年3月金融监管总局的约谈、Q4利润腰斩、Q1指引暴跌51%——这些信号告诉我们，这门生意的"经济特许权"正在被监管重新定价。</p>
+  <p style="margin-top:.75rem"><strong>巴菲特的原则很清楚：当一门生意的盈利能力取决于监管者的心情而非竞争优势时，它不是"便宜"，而是"有原因的便宜"。</strong> 对于风险承受力强的投资者，这可能是一个极端的非对称赌注；对于多数人，这是一个值得观望但不急于出手的标的。</p>
+</section>
+
+<section class="decision-summary" id="summary">
+  <div class="ds-item"><div class="ds-label">巴菲特计分</div><div class="ds-value">23/36</div><div class="ds-note">C级 · 一般公司</div></div>
+  <div class="ds-item"><div class="ds-label">投资评级</div><div class="ds-value rating-hold">持有/投机买入</div><div class="ds-note">极端价值+极端风险</div></div>
+  <div class="ds-item"><div class="ds-label">12个月目标价</div><div class="ds-value">$18.00</div><div class="ds-note">基准情景 +33%</div></div>
+  <div class="ds-item"><div class="ds-label">首仓买入区间</div><div class="ds-value">$10-$11</div><div class="ds-note">接近52周低点</div></div>
+  <div class="ds-item"><div class="ds-label">股息率</div><div class="ds-value">11.6%</div><div class="ds-note">$1.56/ADS 年度</div></div>
+</section>
+
+<!-- Module 1 -->
+<section class="module" id="overview">
+  <div class="module-header"><div class="module-num n1">01</div><h2>公司概览与背景</h2></div>
+  <div class="table-wrapper"><table><tbody>
+    <tr><td>代码 / 交易所</td><td>QFIN (NASDAQ) / 3660 (HKEX)</td></tr>
+    <tr><td>市值</td><td class="num">~$16.5亿美元</td></tr>
+    <tr><td>行业</td><td>AI驱动信贷科技平台</td></tr>
+    <tr><td>成立/前身</td><td>2016年（360金融→360数科→奇富科技）</td></tr>
+    <tr><td>IPO</td><td>2018年12月（NASDAQ），2022年11月（HKEX双重上市）</td></tr>
+    <tr><td>总部</td><td>中国上海</td></tr>
+    <tr><td>累计用户</td><td class="num">2.84亿注册用户，3,890万借贷用户</td></tr>
+    <tr><td>52周价格区间</td><td class="num">$12.29 — $47.00</td></tr>
+  </tbody></table></div>
+  <h3>发展历程</h3>
+  <ul>
+    <li><strong>2016年</strong> — 依托360集团流量成立360金融，做互联网消费信贷</li>
+    <li><strong>2018年</strong> — NASDAQ上市</li>
+    <li><strong>2020-2021年</strong> — 行业高速增长，股价最高$45+</li>
+    <li><strong>2022年</strong> — 更名360数科；港交所双重上市</li>
+    <li><strong>2023年</strong> — 再更名奇富科技，加速AI+金融战略转型</li>
+    <li><strong>2025年</strong> — 年收入RMB 192亿，但Q4利润腰斩；全年返还股东$12.8亿</li>
+    <li><strong>2026年3月</strong> — 金融监管总局约谈，股价从$47跌至$13</li>
+  </ul>
+  <h3>股权结构</h3>
+  <div class="table-wrapper"><table>
+    <thead><tr><th>股东</th><th class="num">持股</th><th>说明</th></tr></thead>
+    <tbody>
+      <tr><td>周鸿祎 / 360集团</td><td class="num">实际控制人</td><td>通过360集团间接控制，B类超级投票权</td></tr>
+      <tr><td>管理层+内部人</td><td class="num">~15-20%</td><td>CEO吴海生等核心团队</td></tr>
+      <tr><td>机构投资者</td><td class="num">~35%</td><td>—</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- Module 2 -->
+<section class="module" id="management">
+  <div class="module-header"><div class="module-num n2">02</div><h2>管理层评估</h2></div>
+  <div class="table-wrapper"><table>
+    <thead><tr><th>姓名</th><th>职位</th><th>背景</th></tr></thead>
+    <tbody>
+      <tr><td>吴海生</td><td>CEO（2019年至今）</td><td>前百度用户体验总监，数字产品和用户获取专家</td></tr>
+      <tr><td>Alex Xu</td><td>CFO</td><td>负责财务和资本市场</td></tr>
+    </tbody>
+  </table></div>
+  <h3>巴菲特测试</h3>
+  <p><strong>资本配置能力出色，但"主人翁"身份模糊。</strong> 2025年回馈$12.8亿（回购$6.8亿+分红$2亿+可转债回购$4亿），相当于当前市值的78%——这是极其激进的股东回报。回购均价$32.1/ADS，远高于当前$13.5，显示管理层在高位也在买——对此有两种解读：要么他们真心看好，要么分不清"便宜"和"不便宜"。</p>
+  <div class="table-wrapper"><table>
+    <thead><tr><th>维度</th><th>评估</th><th class="num">评分</th></tr></thead>
+    <tbody>
+      <tr><td>资本配置能力</td><td>股东回报金额惊人，但回购均价$32远高于当前$13——时机判断存疑。</td><td class="num">B</td></tr>
+      <tr><td>坦诚程度</td><td>公开披露资产质量恶化和Q1利润暴跌指引，不掩饰问题。</td><td class="num">B+</td></tr>
+      <tr><td>利益绑定</td><td>周鸿祎为实控人但日常不参与运营。管理层持股信息不够透明。</td><td class="num">B-</td></tr>
+      <tr><td>历史记录</td><td>成功完成轻资本转型（44%→预计继续提升），但Q4急剧恶化暴露风控短板。</td><td class="num">B-</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- Module 3 -->
+<section class="module" id="business">
+  <div class="module-header"><div class="module-num n3">03</div><h2>商业模式深度解析</h2></div>
+  <div class="callout info"><div class="callout-title">巴菲特的"一句话测试"</div>
+    奇富科技是一个AI驱动的"贷款红娘"——它用大数据和AI帮银行找到合适的借款人，从中赚取撮合费和技术服务费。
+  </div>
+  <h3>收入模型</h3>
+  <div class="table-wrapper"><table>
+    <thead><tr><th>业务类型</th><th class="num">占比</th><th>说明</th><th>利润率</th></tr></thead>
+    <tbody>
+      <tr><td>信贷驱动服务（重资本）</td><td class="num">~56%</td><td>自有资金放贷+担保模式，承担信用风险</td><td>高收入但高风险</td></tr>
+      <tr><td>平台服务（轻资本）</td><td class="num">~44%</td><td>纯撮合+技术输出，不承担信用风险</td><td>低收入但高利润率</td></tr>
+    </tbody>
+  </table></div>
+  <h3>关键经营指标（2025年）</h3>
+  <div class="table-wrapper"><table><tbody>
+    <tr><td>全年贷款撮合量</td><td class="num">RMB 3,271亿</td></tr>
+    <tr><td>累计借贷用户</td><td class="num">3,890万（+13% YoY）</td></tr>
+    <tr><td>累计注册用户</td><td class="num">2.84亿</td></tr>
+    <tr><td>毛利率</td><td class="num">~83%</td></tr>
+    <tr><td>净利润率</td><td class="num">~36%</td></tr>
+    <tr><td>科技输出规模增速</td><td class="num">+448% YoY</td></tr>
+  </tbody></table></div>
+  <p><strong>83%毛利率+36%净利率</strong>——这是互联网公司级别的利润率。本质上奇富科技是一个"数据+算法"公司，用AI判断谁能借到钱，从每笔贷款中收取~3-4%的服务费。问题在于：这个take rate正在被监管压低（Q4降150bps）。</p>
+</section>
+
+<!-- Module 4 -->
+<section class="module" id="moat">
+  <div class="module-header"><div class="module-num n4">04</div><h2>经济护城河分析</h2></div>
+  <div class="moat-item"><span class="moat-label">网络效应</span><span class="moat-rating narrow">窄</span></div>
+  <p style="font-size:.85rem;margin:.5rem 0 1rem;color:var(--text-secondary)">2.84亿用户产生的数据不断训练AI风控模型（AUC达0.64），数据越多模型越准——形成一定的数据飞轮。但这不是传统的网络效应。</p>
+  <div class="moat-item"><span class="moat-label">转换成本</span><span class="moat-rating none">无</span></div>
+  <p style="font-size:.85rem;margin:.5rem 0 1rem;color:var(--text-secondary)">借款人对平台几乎没有忠诚度——谁给的利率低、放款快就用谁。金融机构端有一定的系统集成成本，但不构成强壁垒。</p>
+  <div class="moat-item"><span class="moat-label">成本优势</span><span class="moat-rating narrow">窄</span></div>
+  <p style="font-size:.85rem;margin:.5rem 0 1rem;color:var(--text-secondary)">AI风控比传统银行人工审批效率高数倍，获客成本通过360生态可以压低。但竞争对手（乐信、信也等）也有类似能力。</p>
+  <div class="moat-item"><span class="moat-label">无形资产</span><span class="moat-rating narrow">窄</span></div>
+  <p style="font-size:.85rem;margin:.5rem 0 1rem;color:var(--text-secondary)">奇富需要多个金融牌照运营（小贷、融资担保等），构成一定的监管壁垒。但监管壁垒也意味着监管可以随时改变游戏规则——这是一把双刃剑。</p>
+  <div class="moat-item"><span class="moat-label">有效规模</span><span class="moat-rating none">无</span></div>
+  <p style="font-size:.85rem;margin:.5rem 0 1rem;color:var(--text-secondary)">中国消费信贷市场规模巨大，容纳了数十家助贷平台，不存在有效规模限制。</p>
+  <div class="highlight-box" style="margin-top:1.5rem">
+    <div class="hl-label">护城河总评</div>
+    <p style="font-size:.88rem"><strong>窄护城河，趋势：侵蚀中。</strong> 数据+AI能力提供了一定的竞争优势，但监管正在系统性地压缩这个行业的利润空间——降低定价、限制催收、要求更高合规标准。10年后这条护城河可能更窄而非更宽——除非公司成功转型为纯技术输出平台。</p>
+  </div>
+</section>
+
+<!-- Module 5 -->
+<section class="module" id="financials">
+  <div class="module-header"><div class="module-num n5">05</div><h2>财务深度分析</h2></div>
+  <h3>季度趋势（2025年）</h3>
+  <div class="table-wrapper"><table>
+    <thead><tr><th>指标</th><th class="num">Q1</th><th class="num">Q2</th><th class="num">Q3</th><th class="num">Q4</th><th class="num">全年</th></tr></thead>
+    <tbody>
+      <tr><td>营收（百万RMB）</td><td class="num">4,695</td><td class="num">5,216</td><td class="num">5,206</td><td class="num">4,090</td><td class="num">19,205</td></tr>
+      <tr><td>Non-GAAP净利润</td><td class="num">1,928</td><td class="num">1,849</td><td class="num">1,508</td><td class="num">1,070</td><td class="num">6,350</td></tr>
+      <tr><td>Non-GAAP NI YoY</td><td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num" style="color:var(--red)">-45.7%</td><td class="num" style="color:var(--red)">-1.0%</td></tr>
+      <tr><td>贷款撮合量（亿RMB）</td><td class="num">846</td><td class="num">846</td><td class="num">780</td><td class="num">703</td><td class="num">3,271</td></tr>
+    </tbody>
+  </table></div>
+  <div class="callout danger"><div class="callout-title">Q4急剧恶化</div>
+    Q4收入环比-21%、利润环比-29%——不是缓慢下滑而是"断崖式"。贷款撮合量YoY-21.8%，C-M2逾期率升至0.97%（2020年以来最高）。这不是季节性波动，而是行业结构性转变的信号。
+  </div>
+  <h3>关键比率</h3>
+  <div class="table-wrapper"><table>
+    <thead><tr><th>指标</th><th class="num">2023</th><th class="num">2024</th><th class="num">2025</th></tr></thead>
+    <tbody>
+      <tr><td>毛利率</td><td class="num">~80%</td><td class="num">83.1%</td><td class="num">~80%</td></tr>
+      <tr><td>净利润率</td><td class="num">~33%</td><td class="num">36.4%</td><td class="num">~31%</td></tr>
+      <tr><td>ROE</td><td class="num">~22%</td><td class="num">25.8%</td><td class="num">29.1%</td></tr>
+      <tr><td>ROIC</td><td class="num">—</td><td class="num">—</td><td class="num">38.3%</td></tr>
+      <tr><td>D/E</td><td class="num">~0.30</td><td class="num">~0.28</td><td class="num">0.28</td></tr>
+      <tr><td>流动比率</td><td class="num">—</td><td class="num">—</td><td class="num">2.94</td></tr>
+    </tbody>
+  </table></div>
+  <p>ROE 29%、ROIC 38%在任何行业都是顶级水平。但这反映的是"过去"而非"未来"——2026年的利润率可能显著下降。</p>
+  <h3>资产质量——核心隐忧</h3>
+  <div class="table-wrapper"><table>
+    <thead><tr><th>指标</th><th class="num">数值</th><th>趋势</th></tr></thead>
+    <tbody>
+      <tr><td>C-M2 逾期率（30天+）</td><td class="num">0.97%</td><td style="color:var(--red)">2020年以来最高</td></tr>
+      <tr><td>90天+逾期率</td><td class="num">2.71%</td><td style="color:var(--red)">上升</td></tr>
+      <tr><td>FPD30（首期30天违约）</td><td class="num">—</td><td style="color:var(--green)">Q4环比改善18%</td></tr>
+      <tr><td>贷款定价</td><td class="num">环比-150bps</td><td style="color:var(--red)">持续下降</td></tr>
+    </tbody>
+  </table></div>
+  <h3>所有者盈余计算（2025年）</h3>
+  <div class="code-block">
+所有者盈余 = GAAP净利润 RMB 5,976M
+  + 折旧与摊销 ~RMB 200M
+  + 股权激励 ~RMB 380M
+  - 维护性资本开支 ~RMB -100M
+  ≈ RMB 6,456M ≈ $923M
+
+所有者盈余收益率 = $923M / $1,650M（市值）= 55.9%
+  </div>
+  <p>55.9%的所有者盈余收益率是极端异常值——要么公司被严重低估，要么市场认为这个盈利水平不可持续。鉴于Q1 2026利润指引暴跌51%，真相可能是后者。</p>
+</section>
+
+<!-- Module 6 -->
+<section class="module" id="earningscall">
+  <div class="module-header"><div class="module-num n6">06</div><h2>电话会分析</h2></div>
+  <h3>2025Q4 电话会核心要点（2026年3月）</h3>
+  <ul>
+    <li><strong>资产质量"显著波动"</strong>：管理层用了"notable volatilities"这个措辞——非常罕见的直接承认</li>
+    <li><strong>Q1 2026指引暴跌</strong>：Non-GAAP NI 9-9.5亿，同比-51%至-53%</li>
+    <li><strong>定价持续下行</strong>：贷款平均利率环比降150bps，预计"逐步下降"</li>
+    <li><strong>轻资本转型加速</strong>：2025年轻资本占44%，2026年将继续提升</li>
+    <li><strong>海外启动</strong>：在欧洲、拉美、东南亚布局，年底海外团队达~200人</li>
+    <li><strong>分红承诺</strong>：$0.78/ADS半年度分红，维持"渐进式"分红政策</li>
+  </ul>
+  <div class="callout warning"><div class="callout-title">关键信号</div>
+    管理层对2026年措辞审慎——"等宏观条件稳定后再考虑激进回购"。这意味着他们自己也不确定底在哪里。科技输出（+448%）是亮点，但基数极低。
+  </div>
+</section>
+
+<!-- Module 7 -->
+<section class="module" id="valuation">
+  <div class="module-header"><div class="module-num n7">07</div><h2>多模型估值</h2></div>
+  <h3>1. 相对估值</h3>
+  <div class="table-wrapper"><table>
+    <thead><tr><th>指标</th><th class="num">QFIN</th><th class="num">LX(乐信)</th><th class="num">FINV(信也)</th><th class="num">LU(陆金所)</th></tr></thead>
+    <tbody>
+      <tr><td>P/E (TTM)</td><td class="num">2.15x</td><td class="num">~3x</td><td class="num">~3x</td><td class="num">~5x</td></tr>
+      <tr><td>P/B</td><td class="num">~0.6x</td><td class="num">~0.5x</td><td class="num">~0.6x</td><td class="num">~0.4x</td></tr>
+      <tr><td>股息率</td><td class="num">11.6%</td><td class="num">~8%</td><td class="num">~10%</td><td class="num">~6%</td></tr>
+      <tr><td>ROE</td><td class="num">29%</td><td class="num">~15%</td><td class="num">~20%</td><td class="num">~5%</td></tr>
+    </tbody>
+  </table></div>
+  <p>QFIN在同行中ROE最高但P/E最低——市场给了它最大的"监管折价"。EV/EBITDA 1.04x、EV/FCF 0.87x意味着扣除现金后企业价值接近零。</p>
+
+  <h3>2. DCF估值</h3>
+  <div class="table-wrapper"><table>
+    <thead><tr><th>假设</th><th class="num">悲观</th><th class="num">基准</th><th class="num">乐观</th></tr></thead>
+    <tbody>
+      <tr><td>2026年净利润（RMB亿）</td><td class="num">30</td><td class="num">40</td><td class="num">50</td></tr>
+      <tr><td>之后5年CAGR</td><td class="num">-5%</td><td class="num">5%</td><td class="num">12%</td></tr>
+      <tr><td>WACC</td><td class="num">14%</td><td class="num">12%</td><td class="num">10%</td></tr>
+      <tr><td><strong>每ADS价值</strong></td><td class="num"><strong>$10</strong></td><td class="num"><strong>$20</strong></td><td class="num"><strong>$32</strong></td></tr>
+      <tr><td>概率权重</td><td class="num">35%</td><td class="num">45%</td><td class="num">20%</td></tr>
+    </tbody>
+  </table></div>
+  <p><strong>概率加权公允价值：$18.90/ADS</strong>，较当前$13.5有~40%上行空间。但悲观情景$10距当前也只有26%下行——非对称性尚可。</p>
+
+  <h3>3. 所有者盈余收益率</h3>
+  <p>2025年所有者盈余$923M / 市值$1,650M = <strong>55.9%</strong>。但若用2026年估算（利润可能降40-50%），调整后收益率仍有<strong>25-30%</strong>——依然极高。</p>
+
+  <h3>4. DDM（股利折现模型）</h3>
+  <p>当前股息$1.56/ADS，假设保守增长0%，12%折现率 → <strong>$13.0/ADS</strong>。如果股息维持不变，当前价格等于DDM公允价值——意味着你"免费"获得了业务增长期权。</p>
+
+  <h3>5. 反向DCF</h3>
+  <p>$13.5的股价隐含：市场认为奇富科技的利润将在未来5年以<strong>每年-15%</strong>的速度萎缩，并在10年内接近归零。这是一个极度悲观的预期。</p>
+
+  <h3>估值汇总</h3>
+  <div class="table-wrapper"><table>
+    <thead><tr><th>方法</th><th class="num">估值区间</th><th>适用性</th></tr></thead>
+    <tbody>
+      <tr><td>DCF（概率加权）</td><td class="num">$10 - $32</td><td><span class="badge buy">核心方法</span></td></tr>
+      <tr><td>DDM</td><td class="num">$13.0（底线）</td><td><span class="badge buy">核心方法</span></td></tr>
+      <tr><td>所有者盈余</td><td class="num">极端低估信号</td><td><span class="badge hold">参考（利润可能下降）</span></td></tr>
+      <tr><td>相对估值</td><td class="num">行业最低</td><td><span class="badge hold">参考</span></td></tr>
+      <tr><td>反向DCF</td><td class="num">隐含-15%/年衰退</td><td><span class="badge hold">参考</span></td></tr>
+    </tbody>
+  </table></div>
+  <div class="highlight-box">
+    <div class="hl-label">综合合理价值</div>
+    <p style="font-size:.88rem"><strong>$16 - $22/ADS</strong>。当前$13.5提供了18%-63%的上行空间。但这个估值的置信区间极宽——$10到$32——反映了监管不确定性之大。巴菲特会说："我宁愿以合理的价格买一家好公司，也不愿以便宜的价格买一家平庸的公司。" 这里的问题不是价格，而是公司的"好坏"正在被重新定义。</p>
+  </div>
+</section>
+
+<!-- Module 8 -->
+<section class="module" id="competition">
+  <div class="module-header"><div class="module-num n8">08</div><h2>竞争与行业分析</h2></div>
+  <h3>中国助贷行业格局</h3>
+  <div class="table-wrapper"><table>
+    <thead><tr><th>公司</th><th class="num">2025年撮合量</th><th class="num">净利润率</th><th class="num">P/E</th><th>差异化</th></tr></thead>
+    <tbody>
+      <tr><td>蚂蚁集团（未上市）</td><td class="num">万亿级</td><td class="num">—</td><td class="num">—</td><td>支付宝生态流量</td></tr>
+      <tr><td>奇富科技 QFIN</td><td class="num">RMB 3,271亿</td><td class="num">~31%</td><td class="num">2.15x</td><td>360流量+AI风控</td></tr>
+      <tr><td>信也科技 FINV</td><td class="num">~RMB 2,000亿</td><td class="num">~25%</td><td class="num">~3x</td><td>国际化先行者</td></tr>
+      <tr><td>乐信 LX</td><td class="num">~RMB 2,500亿</td><td class="num">~15%</td><td class="num">~3x</td><td>消费分期场景</td></tr>
+      <tr><td>陆金所 LU</td><td class="num">~RMB 1,500亿</td><td class="num">~5%</td><td class="num">~5x</td><td>平安生态（小微贷款）</td></tr>
+    </tbody>
+  </table></div>
+  <h3>波特五力</h3>
+  <div class="table-wrapper"><table>
+    <thead><tr><th>力量</th><th class="num">强度</th><th>说明</th></tr></thead>
+    <tbody>
+      <tr><td>供应商（资金方）</td><td class="num">高</td><td>银行是资金提供方，掌握定价权，助贷平台议价力弱</td></tr>
+      <tr><td>买方（借款人）</td><td class="num">中</td><td>借款人价格敏感但信用需求刚性</td></tr>
+      <tr><td>替代品</td><td class="num">高</td><td>银行直接APP贷款、蚂蚁借呗、微粒贷等大厂产品</td></tr>
+      <tr><td>新进入者</td><td class="num">低</td><td>需要牌照、数据和AI能力，但监管随时可能引入新规</td></tr>
+      <tr><td>行业竞争</td><td class="num">高</td><td>多家上市助贷平台+蚂蚁/微信等巨头，竞争极其激烈</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- Module 9 -->
+<section class="module" id="technical">
+  <div class="module-header"><div class="module-num n9">09</div><h2>技术面与K线分析</h2></div>
+  <div class="callout info"><div class="callout-title">巴菲特声明</div>巴菲特本人不使用技术分析。本节仅供参考。</div>
+  <h3>关键支撑与阻力</h3>
+  <div class="table-wrapper"><table>
+    <thead><tr><th>类型</th><th class="num">价位</th><th>说明</th></tr></thead>
+    <tbody>
+      <tr><td>强支撑</td><td class="num">$12.29</td><td>52周低点（2026年4月）</td></tr>
+      <tr><td>支撑</td><td class="num">$10.00</td><td>整数关口+2022年低点区域</td></tr>
+      <tr><td>当前价</td><td class="num">$13.51</td><td>—</td></tr>
+      <tr><td>阻力</td><td class="num">$18.00</td><td>前期支撑转阻力</td></tr>
+      <tr><td>强阻力</td><td class="num">$25.00</td><td>2025年下降通道中轨</td></tr>
+    </tbody>
+  </table></div>
+  <p>从$47跌至$13，跌幅73%。周线呈明确的下降通道，目前处于加速赶底阶段。RSI可能接近超卖区域。<strong>不要试图抄底一把尖刀。</strong></p>
+</section>
+
+<!-- Module 10 -->
+<section class="module" id="catalysts">
+  <div class="module-header"><div class="module-num n10">10</div><h2>增长催化剂与前景展望</h2></div>
+  <h3>短期催化剂</h3>
+  <ul>
+    <li><strong>2026年5月18日 Q1财报</strong>：若利润好于指引的9-9.5亿，将是强烈的见底信号</li>
+    <li><strong>监管明确化</strong>：约谈后的整改落地——如果惩罚可控，不确定性消除即催化剂</li>
+    <li><strong>分红执行</strong>：$0.78/ADS于5月14日发放，11%+股息率吸引收益投资者</li>
+  </ul>
+  <h3>中长期增长引擎</h3>
+  <ul>
+    <li><strong>轻资本转型</strong>：从44%→60%+，降低风险、提升利润质量</li>
+    <li><strong>科技输出</strong>：FocusPRO 2.0平台赋能中小银行，2025年增长448%</li>
+    <li><strong>海外扩张</strong>：欧洲、拉美、东南亚——2026年启动</li>
+    <li><strong>AI深化</strong>：DeepSeek强化学习训练的风控模型，准确率95%+</li>
+  </ul>
+</section>
+
+<!-- Module 11 -->
+<section class="module" id="risk">
+  <div class="module-header"><div class="module-num n11">11</div><h2>风险矩阵</h2></div>
+  <div class="table-wrapper"><table>
+    <thead><tr><th>风险类型</th><th class="num">评分</th><th>说明</th></tr></thead>
+    <tbody>
+      <tr><td>监管/政策风险</td><td class="num" style="color:var(--red)">5/5</td><td><strong>最大风险。</strong> 2026年3月约谈、助贷新规、息费透明化要求、催收合规化——监管正在系统性重塑行业。</td></tr>
+      <tr><td>经营风险</td><td class="num" style="color:var(--red)">4/5</td><td>资产质量恶化（C-M2 0.97%）、Q4利润腰斩。轻资本转型需要时间。</td></tr>
+      <tr><td>竞争风险</td><td class="num" style="color:var(--yellow)">3/5</td><td>蚂蚁、微信等大厂产品有流量优势。但奇富的AI风控有一定差异化。</td></tr>
+      <tr><td>宏观风险</td><td class="num" style="color:var(--red)">4/5</td><td>中国消费低迷直接影响借款人还款能力。信贷是最强周期行业之一。</td></tr>
+      <tr><td>财务风险</td><td class="num" style="color:var(--green)">2/5</td><td>D/E 0.28、流动比率2.94、现金充裕。财务本身健康。</td></tr>
+      <tr><td>估值风险</td><td class="num" style="color:var(--green)">1/5</td><td>P/E 2.15x已经price in了极端悲观。即使利润腰斩，P/E也才4x。</td></tr>
+    </tbody>
+  </table></div>
+  <div class="callout danger" style="margin-top:1.5rem">
+    <div class="callout-title">黑天鹅情景</div>
+    <strong>最坏情况：</strong>助贷行业被全面叫停或取消牌照 + 资产质量持续恶化导致巨额核销 → 股价可能跌至$5-7。概率：5-10%。<br>
+    <strong>次坏情况：</strong>2026年全年利润降50%+ + 监管持续加码 + 分红大幅削减 → 股价可能跌至$8-10。概率：25-30%。
+  </div>
+</section>
+
+<!-- Module 12 -->
+<section class="module" id="scorecard">
+  <div class="module-header"><div class="module-num n12">12</div><h2>巴菲特计分卡与投资决策</h2></div>
+  <h3>巴菲特计分卡（满分36分）</h3>
+  <div class="scorecard-grid">
+    <div class="score-row"><span class="criteria">业务是否易于理解</span><div class="dots"><span class="dot filled"></span><span class="dot filled"></span><span class="dot"></span></div><span class="score">2/3</span></div>
+    <div class="score-row"><span class="criteria">经营历史是否一致</span><div class="dots"><span class="dot filled"></span><span class="dot"></span><span class="dot"></span></div><span class="score">1/3</span></div>
+    <div class="score-row"><span class="criteria">长期前景是否良好</span><div class="dots"><span class="dot filled"></span><span class="dot"></span><span class="dot"></span></div><span class="score">1/3</span></div>
+    <div class="score-row"><span class="criteria">管理层坦诚与理性</span><div class="dots"><span class="dot filled"></span><span class="dot filled"></span><span class="dot"></span></div><span class="score">2/3</span></div>
+    <div class="score-row"><span class="criteria">主人翁经营心态</span><div class="dots"><span class="dot filled"></span><span class="dot filled"></span><span class="dot"></span></div><span class="score">2/3</span></div>
+    <div class="score-row"><span class="criteria">高ROE低负债</span><div class="dots"><span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span></div><span class="score">3/3</span></div>
+    <div class="score-row"><span class="criteria">强劲自由现金流</span><div class="dots"><span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span></div><span class="score">3/3</span></div>
+    <div class="score-row"><span class="criteria">宽广经济护城河</span><div class="dots"><span class="dot filled"></span><span class="dot"></span><span class="dot"></span></div><span class="score">1/3</span></div>
+    <div class="score-row"><span class="criteria">保守会计处理</span><div class="dots"><span class="dot filled"></span><span class="dot"></span><span class="dot"></span></div><span class="score">1/3</span></div>
+    <div class="score-row"><span class="criteria">存在安全边际</span><div class="dots"><span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span></div><span class="score">3/3</span></div>
+    <div class="score-row"><span class="criteria">定价能力（抗通胀）</span><div class="dots"><span class="dot filled"></span><span class="dot"></span><span class="dot"></span></div><span class="score">1/3</span></div>
+    <div class="score-row"><span class="criteria">低资本再投入需求</span><div class="dots"><span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span></div><span class="score">3/3</span></div>
+  </div>
+
+  <div style="display:flex;align-items:center;gap:16px;margin:1.5rem 0">
+    <div class="grade-badge c">C</div>
+    <div>
+      <div style="font-family:'Noto Serif SC',serif;font-size:1.1rem;font-weight:600;color:var(--heading)">总分：23/36 — 一般公司</div>
+      <div style="font-size:.82rem;color:var(--text-secondary)">C级 (18-23分)：财务指标优异但护城河脆弱、监管风险极高，拉低了综合评分</div>
+    </div>
+  </div>
+
+  <h3>投资决策</h3>
+  <div class="decision-box">
+    <div class="decision-header">
+      <div class="decision-rating" style="background:var(--yellow-bg);color:var(--yellow)">持有/投机买入</div>
+      <div class="decision-price"><div class="current">$13.51</div><div class="target">12个月目标价：$18.00（基准）</div></div>
+    </div>
+    <h3>12个月目标价</h3>
+    <div class="table-wrapper"><table>
+      <thead><tr><th>情景</th><th class="num">目标价</th><th class="num">概率</th><th>触发条件</th></tr></thead>
+      <tbody>
+        <tr><td>乐观</td><td class="num">$28</td><td class="num">20%</td><td>监管明确+资产质量改善+利润企稳</td></tr>
+        <tr><td>基准</td><td class="num">$18</td><td class="num">45%</td><td>监管惩罚可控+利润降30%后企稳</td></tr>
+        <tr><td>悲观</td><td class="num">$8</td><td class="num">35%</td><td>监管继续加码+资产质量持续恶化</td></tr>
+      </tbody>
+    </table></div>
+    <h3>建仓策略</h3>
+    <div class="table-wrapper"><table>
+      <thead><tr><th>仓位</th><th class="num">价位</th><th class="num">比例</th><th>逻辑</th></tr></thead>
+      <tbody>
+        <tr><td>首仓</td><td class="num">$10 - $11</td><td class="num">40%</td><td>接近历史底部，DDM支撑</td></tr>
+        <tr><td>二仓</td><td class="num">$8 - $10</td><td class="num">40%</td><td>极端恐慌，股息率>15%</td></tr>
+        <tr><td>试探仓</td><td class="num">$13 - $14</td><td class="num">20%</td><td>当前价位小仓观察</td></tr>
+      </tbody>
+    </table></div>
+    <h3>卖出信号</h3>
+    <ul>
+      <li><strong>止盈</strong>：$18（减仓30%）→ $22（减仓30%）→ $28+（清仓）</li>
+      <li><strong>止损</strong>：买入价下方25%，或助贷牌照被吊销的政策信号</li>
+      <li><strong>基本面恶化</strong>：C-M2逾期率突破1.5%、连续3个季度利润下降超40%、分红削减</li>
+    </ul>
+    <h3>仓位建议</h3>
+    <ul>
+      <li><strong>建议仓位</strong>：投资组合的1-3%（高风险投机性仓位）</li>
+      <li><strong>持有周期</strong>：中期波段（12-18个月），等待监管明确化</li>
+    </ul>
+  </div>
+
+  <h3>关键监控指标</h3>
+  <ul>
+    <li>C-M2逾期率（必须<1.2%，否则资产质量问题加剧）</li>
+    <li>贷款撮合量环比变化（观察是否企稳）</li>
+    <li>轻资本占比（向60%迈进=利好）</li>
+    <li>监管政策动向（约谈后的整改结果）</li>
+    <li>分红金额是否维持（管理层信心的直接指标）</li>
+  </ul>
+
+  <h3>事件时间表</h3>
+  <div class="table-wrapper"><table>
+    <thead><tr><th>日期</th><th>事件</th><th>重要性</th></tr></thead>
+    <tbody>
+      <tr><td>2026-04-22</td><td>分红股权登记日</td><td><span class="badge hold">中</span></td></tr>
+      <tr><td>2026-05-14</td><td>$0.78/ADS分红派发</td><td><span class="badge hold">中</span></td></tr>
+      <tr><td>2026-05-18</td><td>Q1 2026财报（关键验证点）</td><td><span class="badge sell">极高</span></td></tr>
+      <tr><td>2026年H1</td><td>监管整改结果公布</td><td><span class="badge sell">极高</span></td></tr>
+      <tr><td>2026-08</td><td>Q2 2026财报</td><td><span class="badge sell">高</span></td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="callout success"><div class="callout-title">下一个催化剂</div>
+    <strong>2026年5月18日的Q1财报</strong>是最关键的时间节点。如果实际利润好于9-9.5亿的指引（正面惊喜），且C-M2逾期率开始下降，这将是第一个"至暗已过"的信号。反之，如果利润更差或逾期率继续恶化，股价可能再下一个台阶。
+  </div>
+</section>
+
+<div class="disclaimer"><strong>免责声明：</strong>本分析仅供教育和研究用途，不构成投资建议。"巴菲特"视角是一个受沃伦·巴菲特公开表述的投资原则启发的分析框架——它并不代表沃伦·巴菲特本人对任何具体公司的观点。所有投资都有风险，请在做出投资决策前咨询合格的财务顾问。</div>
+
+<footer class="page-footer">
+  <p>Generated by <strong>巴菲特神谕分析师</strong> &middot; <a href="https://github.com/JaceXie" target="_blank" rel="noopener">@JaceXie</a></p>
+  <p style="margin-top:4px">分析日期：2026-04-09 &middot; 数据来源：SEC Filing, Yahoo Finance, StockAnalysis, 巨潮资讯</p>
+</footer>
+</main>
+</div>
+<button class="back-to-top" id="backToTop" title="回到顶部">&#8593;</button>
+<script>
+(function(){var h=document.documentElement,t=document.getElementById('themeToggle'),i=document.getElementById('themeIcon');var s=localStorage.getItem('qfin-theme');if(s)h.setAttribute('data-theme',s);else if(window.matchMedia('(prefers-color-scheme:dark)').matches)h.setAttribute('data-theme','dark');function u(){i.innerHTML=h.getAttribute('data-theme')==='dark'?'&#9788;':'&#9790;'}u();t.addEventListener('click',function(){var n=h.getAttribute('data-theme')==='dark'?'light':'dark';h.setAttribute('data-theme',n);localStorage.setItem('qfin-theme',n);u()});var ss=document.querySelectorAll('.module,.verdict,.hero,.decision-summary'),nl=document.querySelectorAll('.sidebar-nav a');function ua(){var c='';ss.forEach(function(s){if(window.scrollY>=s.offsetTop-100)c=s.id});nl.forEach(function(l){l.classList.remove('active');if(l.getAttribute('href')==='#'+c)l.classList.add('active')})}window.addEventListener('scroll',ua,{passive:true});ua();var b=document.getElementById('backToTop');window.addEventListener('scroll',function(){b.classList.toggle('visible',window.scrollY>400)},{passive:true});b.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'})});nl.forEach(function(l){l.addEventListener('click',function(e){e.preventDefault();var t=document.querySelector(this.getAttribute('href'));if(t)t.scrollIntoView({behavior:'smooth',block:'start'})})})})();
+</script>
+</body>
+</html>
